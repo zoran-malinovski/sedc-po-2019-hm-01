@@ -1,0 +1,55 @@
+/*style.css*/
+*{
+	padding: 0;
+	margin: 0;
+	font-family: 'Arial', serif;
+	font-weight: bolder;
+}
+
+
+
+.nav{
+	width: 100%;
+	height: auto;
+	background-color: #fff;
+	list-style: none;
+	text-align: right;
+	padding: 20px 0;
+
+}
+.nav li{
+	display: inline-block;
+	padding-right: 50px;
+}
+
+.nav li a{
+	text-decoration: none;
+	font-size: 12px;
+	color: black;
+
+}
+.nav li a:hover{
+	color: red;
+}
+
+.logo{
+	
+	float: left;
+	padding-left: 50px;
+	font-size: 16;
+}
+
+.logo a{
+	text-decoration: none;
+	color: red;
+}
+
+.banner{
+	width: 100%;
+	display: block;
+}
+.banner img{
+	width: 100%;
+	display: block;
+	height: 300px;
+}
